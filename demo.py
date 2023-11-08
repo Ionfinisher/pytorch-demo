@@ -34,7 +34,9 @@ criterion = torch.nn.MSELoss()  # Mean Squared Error loss
 # des erreurs qu'elle a commises lors de ses prédictions.
 optimizer = torch.optim.SGD(model.parameters(), lr=0.0001)
 
-
+# Entrainement du modèle
+# L'ensemble de ces fonctions revient à enseigner au modele
+# à faire de meilleures prédictions en apprenant à partir des données.
 num_epochs = 1000
 for epoch in range(num_epochs):
     optimizer.zero_grad()
