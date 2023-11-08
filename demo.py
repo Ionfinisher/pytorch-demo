@@ -20,7 +20,7 @@ plt.title('Cremes vendues vs Température')
 plt.show()
 
 # Nous créons maintenent un Modèle de régression linéaire simple
-# qui permet de prédire les cremes vendus en fonction de la température
+# qui permet de prédire les ventes de creme en fonction de la température
 model = torch.nn.Linear(1, 1)  # une entrée et une sortie
 
 # Cette fonction mesure l'efficacité du modele à prédire
